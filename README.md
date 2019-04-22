@@ -1,5 +1,5 @@
 # Rails Blog
-
+rails generate scaffold Post title:string description:text --no-test-framework
 ## Instructions
 
 This is a simple lab. All you have to do is get the tests passing. There are a
