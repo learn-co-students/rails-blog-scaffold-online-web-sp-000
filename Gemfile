@@ -20,6 +20,7 @@ gem 'sdoc', group: :doc
 gem 'rails-controller-testing'
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
+gem 'sassc', '~> 1.12', '>= 1.12.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -35,7 +36,7 @@ gem 'spring',        group: :development
 
 group :test, :development do
   gem "rspec-rails"
-  gem "capybara"
+  gem "capybara", '~> 3.13.2'
   gem "selenium-webdriver"
   gem "better_errors"
   gem "binding_of_caller"
