@@ -84,6 +84,7 @@ RSpec.describe PostsController, :type => :controller do
     end
   end
 
+
   describe "PUT update" do
     describe "with valid params" do
       let(:new_attributes) {
