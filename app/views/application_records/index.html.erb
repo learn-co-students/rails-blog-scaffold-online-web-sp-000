@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Application Records</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @application_records.each do |application_record| %>
+      <tr>
+        <td><%= link_to 'Show', application_record %></td>
+        <td><%= link_to 'Edit', edit_application_record_path(application_record) %></td>
+        <td><%= link_to 'Destroy', application_record, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Application Record', new_application_record_path %>
