@@ -1,2 +1,2 @@
-#require 'rails_helper'
-#require 'capybara/rails'
+require 'rails_helper'
+require 'capybara/rails'
