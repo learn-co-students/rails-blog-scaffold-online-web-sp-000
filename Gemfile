@@ -46,6 +46,7 @@ gem 'sqlite3', '~> 1.3.6'
   gem "pry"
   gem "guard-rspec", require: false
   gem "thin"
+  gem 'shotgun'
 end
 
 gem "bootstrap-sass"
