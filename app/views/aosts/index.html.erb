@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Aosts</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @aosts.each do |aost| %>
+      <tr>
+        <td><%= aost.title %></td>
+        <td><%= aost.description %></td>
+        <td><%= link_to 'Show', aost %></td>
+        <td><%= link_to 'Edit', edit_aost_path(aost) %></td>
+        <td><%= link_to 'Destroy', aost, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Aost', new_aost_path %>
