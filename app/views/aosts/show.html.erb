@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @aost.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @aost.description %>
+</p>
+
+<%= link_to 'Edit', edit_aost_path(@aost) %> |
+<%= link_to 'Back', aosts_path %>

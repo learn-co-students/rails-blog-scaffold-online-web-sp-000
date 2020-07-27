@@ -1,0 +1,2 @@
+class Aost < ApplicationRecord
+end
