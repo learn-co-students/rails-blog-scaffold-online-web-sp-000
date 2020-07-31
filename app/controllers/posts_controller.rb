@@ -1,6 +1,6 @@
 # rails generate scaffold Post title:string text:string created_at:datetime updated_at:datetime --no-test-framework
 
-# reput in the spec tests 
+# reput in the spec tests : https://github.com/DahliaBloomstone/rails-blog-scaffold-online-web-sp-000/tree/solution
 class PostsController < ApplicationController
   before_action :set_post, only: [:show, :edit, :update, :destroy]
 
