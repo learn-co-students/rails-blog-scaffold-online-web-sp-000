@@ -24,7 +24,7 @@ RSpec.describe PostsController, :type => :controller do
   # Post. As you add validations to Post, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) {
-    {title: "My String", description: "My desc"}
+    {title: "a title", description: "a description"}
   }
 
   # This should return the minimal set of values that should be in the session
