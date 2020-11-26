@@ -45,7 +45,7 @@ group :test, :development do
 gem 'sqlite3', '~> 1.3.6'
   gem "pry"
   gem "guard-rspec", require: false
-  gem "thin"
+  # gem "thin", '1.7.2'
 end
 
 gem "bootstrap-sass"
