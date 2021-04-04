@@ -21,6 +21,8 @@ gem 'rails-controller-testing'
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -42,7 +44,7 @@ group :test, :development do
   gem "factory_bot"
   gem "simplecov"
   gem "database_cleaner"
-gem 'sqlite3', '~> 1.3.6'
+gem 'sqlite3', '~> 1.4'
   gem "pry"
   gem "guard-rspec", require: false
   gem "thin"
