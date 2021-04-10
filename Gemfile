@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails'
+gem 'rails', '5.2.5'
 # Use SCSS for stylesheets
-gem 'sass-rails'
+gem 'sass-rails', '5.0.7'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier'
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails'
+gem 'coffee-rails', '4.2.2'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 gem 'bootsnap'
@@ -42,7 +42,7 @@ group :test, :development do
   gem "factory_bot"
   gem "simplecov"
   gem "database_cleaner"
-gem 'sqlite3', '~> 1.3.6'
+gem 'sqlite3', '1.3.13'
   gem "pry"
   gem "guard-rspec", require: false
   gem "thin"
